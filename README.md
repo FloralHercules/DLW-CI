@@ -34,6 +34,8 @@ The script will execute the full multi-drone cooperative search simulation and g
 
 ![Pipeline](Assets/pipeline.png)
 
+> **Fig. 4. Workflow of the DLW-CI approach**, consisting of four sequential modules: (1) **Parallel particle filters** — computes the dynamic likelihood weight via inter-drone parameter sharing and aggregates multi-filter outputs into a predicted value; (2) **Multi-source scenario perception** — the drone senses the environment and fits the prior source estimate with a Gaussian function for parameter aggregation; (3) **Source term update** — refines the source estimate from prior to posterior via Bayes' theorem; (4) **Optimal action selection** — the drone chooses its next action by maximizing the Infotaxis reward function. The cycle repeats until termination.
+
 ## Simulation Results
 
 The following snapshots show the algorithm's performance at different stages of the search process:
