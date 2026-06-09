@@ -40,13 +40,13 @@ The script will execute the full multi-drone cooperative search simulation and g
 
 The following snapshots show the algorithm's performance at different stages of the search process:
 
-| Step 1 | Step 45 |
-|:---:|:---:|
-| ![Step 1](Assets/1.png) | ![Step 45](Assets/45.png) |
+|        Step 1        |   Step 45   |
+| :-------------------: | :----------: |
+| ![Step 1](Assets/1.png) | ![Step 1](Assets/40.png)|
 
-| Step 85 | Step 145 |
-|:---:|:---:|
-| ![Step 85](Assets/85.png) | ![Step 145](Assets/145.png) |
+|         Step 85         |         Step 145         |
+| :---------------------: | :-----------------------: |
+| ![Step 85](Assets/70.png) | ![Step 145](Assets/250.png) |
 
 > **Legend:** Colored **X** markers represent the estimated source locations (one color per drone/agent); yellow ★ stars indicate the true source positions. The background heatmap shows the gas concentration field.
 
