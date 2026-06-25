@@ -77,9 +77,9 @@ If you find this work useful in your research, please cite:
 .
 ├── Assets/                  # Figures and pipeline diagram
 │   ├── 1.png               # Simulation step 1
-│   ├── 45.png              # Simulation step 45
-│   ├── 85.png              # Simulation step 85
-│   ├── 145.png             # Simulation step 145
+│   ├── 40.png              # Simulation step 45
+│   ├── 70.png              # Simulation step 85
+│   ├── 250.png             # Simulation step 145
 │   └── pipeline.png        # Algorithm framework diagram
 ├── Results/                # Output results for each run
 ├── seeking_DLW-CI.py       # Main entry point
